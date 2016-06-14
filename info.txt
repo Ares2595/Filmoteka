@@ -1,0 +1,43 @@
+Aplikacja do przechowywania informacji o obejrzanych filmach.
+Dodając film należy podać: tytuł, ocenę, rok produkcji, jedną lub więcej kategorii i można dodać komentarz.
+Po odpaleniu aplikacji widzimy 2 listy, jedna to lista filmów ostatnio oglądanych, a druga to lista najwyżej ocenianych filmów.
+
+Dodawanie filmu:
+    -po uruchomieniu aplikacji klikamy przycisk "Dodaj film"
+    -w nowym oknie musimy podać:
+        a) tytul
+        b) ocenę
+        c) rok produkcji
+        d) 1 lub więcej katagorii ( aby zrezygnować z poprzednio dodanej kategorii należy kliknąć na wybraną kategorie na liście poniżej)
+    - do filmu można dodać komentarz
+    - aby zapisać film klikamy przycisk "Zapisz"
+    - aby zrezygnować z zapisu należy kliknąć przycisk "Powrót"
+    
+Zapisywanie bazy filmów:
+    - filmy automatycznie zapisywane są do pliku "default.xml" w miejscu gdzie trzymamy *.exe
+    - aby wyeksportować plik bazy filmów pod inną nazwą należy kliknąć przycisk "Zapisz"
+        a) wybrać miejsce zapisu
+        b) wpisać nazwę
+        c) kliknąć "Zapisz"
+        
+Wczytywanie bazy filmów:
+    - klikamy przycisk "Wczytaj"
+    - wybieramy interesujący nas plik
+    - klikamy przycisk "Wczytaj"
+    
+Wyszukiwanie / usuwanie / edytowanie filmów:
+    - klikamy przycisk "Wyświetl"
+    -aby wyświetlić wszyskie filmy klikamy "Pokaż wszystko"
+    -sortowanie
+        a) po lewej stronie okna najpierw wybieramy po czym chcemy szukać
+        b) w polu "Co" podajemy kryteria
+        c) klikamy przycisk "Szukaj"
+    -usuwanie
+        a) klikamy PPM na filmie, który chcemy usunąć
+        b) wybieramy z opcji które się pojawią "Usuń"
+    -edytowanie
+        a) klikamy PPM na filmie, który chcemy edytować
+        b) wybieramy z opcji które się pojawią "Edytuj"
+        c) wprowadzamy zmiany
+        d) aby zapisać zmiany klikamy przycisk "Zapisz"
+        e) aby zrezygnować z edycji należy kliknąć przycisk "Powrót"
